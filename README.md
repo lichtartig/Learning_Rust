@@ -9,3 +9,9 @@ This is an implementation of the usual quick sort algorithm. In Rust recursion d
 
 ### Merge Sort
 An implementation of the merge sort algorithm.
+
+
+## Miscellaneous
+
+### Erastothenes' sieve
+This is an implementation of the classical algorithm to find prime numbers.
