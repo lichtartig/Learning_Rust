@@ -9,3 +9,4 @@ Among other things I implement the typical sorting algorithms.
 This is an implementation of the usual quick sort algorithm. In Rust recursion does not work together with mutable references as function parameters. To circumvent this, we define a struct that takes a mutable reference upon construction and implement the sort-function as a struct-method.
 
 ### Merge Sort
+An implementation of the merge sort algorithm.
