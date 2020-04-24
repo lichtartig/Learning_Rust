@@ -1,3 +1,2 @@
 .idea
-merge_sort/target/*
-quick_sort/target/*
+*/target/*
