@@ -1,6 +1,5 @@
 use rand::prelude::*;
 
-
 fn main() {
     // Make a vector filled with a range of numbers and shuffle it
     let mut gen = rand::thread_rng();
@@ -39,16 +38,24 @@ impl Sorter<'_> {
                 let mut j = right as usize;
                 let pivot = self.sample[right as usize];
                 while i < j {
-                    while i < (right as usize) && self.sample[i] < pivot { i = i + 1; }
-                    while (left as usize) < j && pivot <= self.sample[j] { j = j - 1; }
-                    if i < j { self.sample.swap(i,j); }
+                    while i < (right as usize) && self.sample[i] < pivot {
+                        i = i + 1;
+                    }
+                    while (left as usize) < j && pivot <= self.sample[j] {
+                        j = j - 1;
+                    }
+                    if i < j {
+                        self.sample.swap(i, j);
+                    }
                 }
-                if pivot < self.sample[i] { self.sample.swap(i, right as usize); }
+                if pivot < self.sample[i] {
+                    self.sample.swap(i, right as usize);
+                }
                 i
             };
             // run merge_sort recursively on the two parts of the vector
-            self.quick_sort(left, divisor as i32 -1);
-            self.quick_sort(divisor as i32 +1, right);
+            self.quick_sort(left, divisor as i32 - 1);
+            self.quick_sort(divisor as i32 + 1, right);
         }
     }
 }

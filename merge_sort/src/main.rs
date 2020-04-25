@@ -1,6 +1,5 @@
 use rand::prelude::*;
 
-
 fn main() {
     // Make a vector filled with a range of numbers and shuffle it
     let mut gen = rand::thread_rng();
@@ -37,29 +36,23 @@ fn merge(left_vec: &mut Vec<i32>, right_vec: &mut Vec<i32>) -> Vec<i32> {
     let mut merged: Vec<i32> = Vec::new();
     loop {
         match left_vec.get(0) {
-            Some(x) => {
-              match right_vec.get(0) {
-                  Some(y) => {
-                      if *x < *y {
-                          merged.push(left_vec.remove(0));
-                      } else {
-                          merged.push(right_vec.remove(0));
-                      }
-                  },
-                  None => {
-                      merged.push(left_vec.remove(0));
-                  }
-              }
+            Some(x) => match right_vec.get(0) {
+                Some(y) => {
+                    if *x < *y {
+                        merged.push(left_vec.remove(0));
+                    } else {
+                        merged.push(right_vec.remove(0));
+                    }
+                }
+                None => {
+                    merged.push(left_vec.remove(0));
+                }
             },
-            None => {
-                match right_vec.get(0) {
-                  Some(_) => {
-                      merged.push(right_vec.remove(0));
-                  },
-                  None => {
-                      break
-                  }
-              }
+            None => match right_vec.get(0) {
+                Some(_) => {
+                    merged.push(right_vec.remove(0));
+                }
+                None => break,
             },
         }
     }

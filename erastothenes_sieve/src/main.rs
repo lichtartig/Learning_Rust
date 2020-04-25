@@ -7,15 +7,13 @@ fn main() {
         a[i] = i
     }
 
-
     // the actual Erastothenes sieve
     for i in 2..MAX {
         if a[i] != 0 {
             println!("{}", i);
-            for j in ((2*i)..MAX).step_by(i) {
-               a[j] = 0;
+            for j in ((2 * i)..MAX).step_by(i) {
+                a[j] = 0;
             }
         }
     }
 }
-
