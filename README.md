@@ -10,6 +10,11 @@ This is an implementation of the usual quick sort algorithm. In Rust recursion d
 ### Merge Sort
 An implementation of the merge sort algorithm.
 
+## Graph Search
+
+### Dijkstra
+I implemented the Dijkstra algorihm on a randomly generated adjacency list graph.
+
 
 ## Miscellaneous
 
