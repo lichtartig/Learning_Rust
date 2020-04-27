@@ -18,15 +18,13 @@ fn main() {
     }
 }
 
-/// This is the function that performs the actual test for uniqueness of all characters:
-/// We create a vector an empty vector and then parse the string character by character.
-/// If the character is not contained in the vector, we append it. Otherwise we return false.
+/// This function performs the actual check if a string has only unique characters. It does so
+/// by using a for loop over the characters and then checks if the string-slice preceding it
+/// contained this character already.
 fn all_unique(input: &str) -> bool {
-    let mut buffer: Vec<char> = Vec::new();
-    for c in input.chars() {
-        match buffer.contains(&c) {
-            true => return false,
-            false => buffer.push(c),
+    for i in 0..input.len() {
+        if input[0..i].contains(&input[i..i+1]) {
+            return false;
         }
     }
     true
