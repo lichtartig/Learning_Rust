@@ -23,7 +23,7 @@ fn main() {
 /// contained this character already.
 fn all_unique(input: &str) -> bool {
     for i in 0..input.len() {
-        if input[0..i].contains(&input[i..i+1]) {
+        if input[0..i].contains(&input[i..i + 1]) {
             return false;
         }
     }
