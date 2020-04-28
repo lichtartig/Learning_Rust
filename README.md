@@ -20,3 +20,6 @@ I implemented the Dijkstra algorihm on a randomly generated adjacency list graph
 
 ### Erastothenes' sieve
 This is an implementation of the classical algorithm to find prime numbers.
+
+## Cracking the Coding Interview
+I started implementing the problems in the book by McDowell, both to improve in Rust as well as to refresh on some coding basics.
