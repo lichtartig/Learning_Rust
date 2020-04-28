@@ -1,7 +1,5 @@
 /// The object of this exercise is to rotate an NxN-matrix by 90°.
 /// The second question is if this can be done in place.
-extern crate ndarray;
-
 use ndarray::prelude::*;
 use ndarray::{Array, Ix2};
 
