@@ -1,0 +1,1 @@
+/home/sebastian/Documents/Rust-Projekte/Learning_Rust/Cracking\ the\ Coding\ Interview/strings_and_arrays_6/target/debug/strings_and_arrays_6: /home/sebastian/Documents/Rust-Projekte/Learning_Rust/Cracking\ the\ Coding\ Interview/strings_and_arrays_6/src/main.rs

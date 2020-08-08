@@ -1,0 +1,1 @@
+/home/sebastian/Documents/Rust-Projekte/Learning_Rust/Cracking\ the\ Coding\ Interview/hard_1/target/debug/hard_1: /home/sebastian/Documents/Rust-Projekte/Learning_Rust/Cracking\ the\ Coding\ Interview/hard_1/src/main.rs

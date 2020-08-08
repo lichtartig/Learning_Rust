@@ -1,0 +1,1 @@
+/home/sebastian/Documents/Rust-Projekte/Learning_Rust/Cracking\ the\ Coding\ Interview/sorting_and_searching_5/target/debug/sorting_and_searching_5: /home/sebastian/Documents/Rust-Projekte/Learning_Rust/Cracking\ the\ Coding\ Interview/sorting_and_searching_5/src/main.rs

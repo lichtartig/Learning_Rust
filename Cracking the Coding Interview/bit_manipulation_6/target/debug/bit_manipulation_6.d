@@ -1,0 +1,1 @@
+/home/sebastian/Documents/Rust-Projekte/Learning_Rust/Cracking\ the\ Coding\ Interview/bit_manipulation_6/target/debug/bit_manipulation_6: /home/sebastian/Documents/Rust-Projekte/Learning_Rust/Cracking\ the\ Coding\ Interview/bit_manipulation_6/src/main.rs

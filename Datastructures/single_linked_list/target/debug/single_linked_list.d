@@ -1,0 +1,1 @@
+/home/sebastian/Documents/Rust-Projekte/Datastructures/single_linked_list/target/debug/single_linked_list: /home/sebastian/Documents/Rust-Projekte/Datastructures/single_linked_list/src/main.rs /home/sebastian/Documents/Rust-Projekte/Datastructures/single_linked_list/src/single_linked_list.rs
